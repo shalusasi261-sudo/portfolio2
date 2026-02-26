@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shalini S - Student Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #eef2f3, #dfe9f3);
+            color: #2c3e50;
+        }
+
+        header {
+            background: linear-gradient(to right, #1d2671, #c33764);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        section {
+            background: white;
+            margin: 30px auto;
+            padding: 30px;
+            width: 85%;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #1d2671;
+            border-bottom: 2px solid #c33764;
+            padding-bottom: 8px;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        .project-box {
+            background: #f5f7ff;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            border-left: 6px solid #c33764;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1d2671;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    SHALINI S – STUDENT PORTFOLIO
+</header>
+
+<section>
+    <h2>Student Profile</h2>
+    <p><strong>Name:</strong> Shalini S</p>
+    <p><strong>Roll No:</strong> RA2411003050243</p>
+    <p><strong>Email:</strong> shalusasi261@gmail.com</p>
+    <p><strong>Skills:</strong> Python, C, Java</p>
+</section>
+
+<section>
+    <h2>Academic Details</h2>
+    <p><strong>Semester Result (CGPA):</strong> 8.05</p>
+
+    <h3>Courses Completed</h3>
+    <ul>
+        <li>Design and Analysis of Algorithms</li>
+        <li>Database Management System</li>
+        <li>Artificial Intelligence</li>
+        <li>Internet of Things</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="project-box">
+        <h3>IoT Based Smart Water Tank Level Monitoring and Alert System</h3>
+        <p>
+            The IoT-Based Smart Water Tank Level Monitoring and Alert System automatically 
+            monitors water levels and prevents overflow and motor damage. It uses an ultrasonic 
+            sensor with an ESP32 microcontroller. Water levels are displayed on an OLED screen 
+            and sent to a smartphone through Wi-Fi. Alerts are generated for minimum and maximum levels.
+        </p>
+
+        <p><strong>Tools Used:</strong></p>
+        <ul>
+            <li>ESP32 Microcontroller</li>
+            <li>Ultrasonic Sensor</li>
+            <li>OLED Display</li>
+            <li>Wi-Fi (ESP32 inbuilt)</li>
+            <li>IoT Mobile Application</li>
+        </ul>
+    </div>
+
+    <div class="project-box">
+        <h3>Automatic Identification and Classification of Skin Lesion Images Using Deep Learning</h3>
+        <p>
+            This project focuses on detecting skin cancer (melanoma) using Convolutional Neural Networks (CNN).
+            The model is trained on HAM10000 dataset and classifies lesions as benign or malignant.
+            Achieved accuracy of around 92–95%, helping in early cancer detection.
+        </p>
+
+        <p><strong>Key Features:</strong></p>
+        <ul>
+            <li>Image preprocessing & data augmentation</li>
+            <li>CNN based feature extraction</li>
+            <li>Grad-CAM heatmap visualization</li>
+            <li>Web/Mobile deployment with privacy compliance</li>
+        </ul>
+
+        <p><strong>Performance:</strong> Accuracy 92–95%, Precision 93%, Recall 91%</p>
+    </div>
+
+</section>
+
+<section>
+    <h2>Certifications</h2>
+    <ul>
+        <li>The Sustainable Development Goals – Coursera</li>
+        <li>Introduction to Generative AI for Developers with Copilot – Coursera</li>
+        <li>Active Listening: Enhancing Communication Skills – Coursera</li>
+        <li>Introduction to Visual Basic Programming – Coursera</li>
+        <li>Introduction to Prompt Engineering – Simplilearn</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Internship</h2>
+    <ul>
+        <li>Eduskill – Java Full Stack Developer Virtual Internship</li>
+        <li>Eduskill – Android Developer Virtual Internship</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Achievements</h2>
+    <ul>
+        <li>Participated in Hackathon</li>
+        <li>CODECRAFT 25 Hackathon</li>
+        <li>Noobfest Startup Hackathon</li>
+    </ul>
+</section>
+
+<footer>
+    © 2026 Shalini S | Student Portfolio
+</footer>
+
+</body>
+</html>
