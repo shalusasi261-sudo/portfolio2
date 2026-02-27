@@ -1,28 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Student Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Mydeen Abdul Khadar M | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
-
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family: Arial, sans-serif;
-        }
-
         body{
-            background:#f4f7fb;
+            margin:0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background:#f5f7fb;
             color:#333;
-            line-height:1.6;
         }
 
         header{
-            background:#2c3e50;
+            background:#1f4e79;
             color:white;
+            padding:30px 20px;
             text-align:center;
-            padding:25px;
         }
 
         section{
@@ -30,31 +25,30 @@
             margin:30px auto;
             padding:25px;
             width:85%;
-            border-radius:8px;
-            box-shadow:0 4px 12px rgba(0,0,0,0.08);
+            border-radius:10px;
+            box-shadow:0 6px 15px rgba(0,0,0,0.08);
         }
 
         h2{
-            color:#2c3e50;
+            color:#1f4e79;
+            border-bottom:2px solid #1f4e79;
+            padding-bottom:6px;
             margin-bottom:15px;
-            border-bottom:2px solid #3498db;
-            padding-bottom:5px;
         }
 
         h3{
-            margin-top:15px;
-            color:#34495e;
+            color:#2c3e50;
+            margin-top:18px;
         }
 
         ul{
             margin-left:20px;
-            margin-top:10px;
         }
 
         footer{
             text-align:center;
-            padding:20px;
-            background:#2c3e50;
+            padding:15px;
+            background:#1f4e79;
             color:white;
             margin-top:40px;
         }
@@ -64,27 +58,29 @@
                 width:95%;
             }
         }
-
     </style>
 </head>
+
 <body>
 
 <header>
-    <h1>Student Portfolio</h1>
+    <h1>Mydeen Abdul Khadar M</h1>
+    <p>Student Portfolio</p>
 </header>
 
 <section>
-    <h2>Section 1 - Student Profile</h2>
-    <p><b>Name:</b> Shalini S</p>
-    <p><b>Roll No:</b> RA2411003050243</p>
-    <p><b>Email:</b> shalusasi261@gmail.com</p>
-    <p><b>Skill:</b> Python, C, Java</p>
+    <h2>Section 1 – Student Profile</h2>
+    <p><b>Name:</b> Mydeen Abdul Khadar M</p>
+    <p><b>Roll No:</b> RA2411003050225</p>
+    <p><b>Email:</b> mydeen1512@gmail.com</p>
+    <p><b>Skills:</b> Python, C, Java, Excel, C++</p>
 </section>
 
 <section>
-    <h2>Section 2 - Academic Details</h2>
-    <p><b>Semester Result:</b> 8.05</p>
-    <h3>Courses Name:</h3>
+    <h2>Section 2 – Academic Details</h2>
+    <p><b>Semester Result:</b> 7.85</p>
+
+    <h3>Courses Name</h3>
     <ul>
         <li>Design and Analysis of Algorithms</li>
         <li>Database Management System</li>
@@ -94,72 +90,78 @@
 </section>
 
 <section>
-    <h2>Section 3 - Projects</h2>
+    <h2>Section 3 – Projects</h2>
 
-    <h3>1. IoT Based Smart Water Tank Level Monitoring and Alert System</h3>
+    <h3>1. Forest Fire Risk Prediction Tool</h3>
     <p>
-        The system monitors water levels using an ultrasonic sensor and ESP32 microcontroller. 
-        It prevents overflow and shortage by sending real-time alerts through Wi-Fi. 
-        Water levels are displayed on an OLED screen and smartphone app. 
-        This is a low-cost and efficient water management solution.
+        The Forest Fire Risk Prediction Tool is a web-based application that uses
+        machine learning and real-time environmental data such as temperature,
+        humidity, wind speed, and rainfall to predict the likelihood of forest fires.
+        The system helps forest departments and the public identify high-risk areas
+        early and take preventive measures.
     </p>
 
-    <h4>Tools Used:</h4>
+    <h4>Tools & Technologies</h4>
     <ul>
-        <li>ESP32 Microcontroller</li>
-        <li>Ultrasonic Sensor</li>
-        <li>OLED Display</li>
-        <li>Wi-Fi Module (Inbuilt in ESP32)</li>
-        <li>IoT Mobile Application</li>
+        <li>JavaScript, React.js</li>
+        <li>Map APIs (Google Maps / Leaflet.js)</li>
+        <li>Java, Flask / Django</li>
+        <li>REST API</li>
+        <li>Scikit-learn, Pandas, NumPy</li>
+        <li>MongoDB / MySQL</li>
+        <li>AWS / Heroku / Vercel</li>
     </ul>
 
     <br>
 
-    <h3>2. Automatic Identification and Classification of Skin Lesion Images Using Deep Learning</h3>
+    <h3>2. Smart Blind Navigation Stick Using IoT Sensors</h3>
     <p>
-        This project detects skin cancer using Convolutional Neural Networks (CNN). 
-        The model is trained using HAM10000 dataset and classifies lesions as benign or malignant. 
-        It achieves 92–95% accuracy and supports early cancer detection.
+        The Smart Blind Navigation Stick is an assistive hardware device designed
+        to help visually impaired individuals move safely. It uses ultrasonic and IR
+        sensors to detect obstacles, pits, and steps in real time. Alerts are given
+        using a buzzer or vibration motor, while GPS and GSM modules can send location
+        and emergency alerts to caregivers.
     </p>
 
-    <h4>Model Evaluation:</h4>
+    <h4>Tools & Components</h4>
     <ul>
-        <li>Accuracy: 92–95%</li>
-        <li>Precision: 93%</li>
-        <li>Recall: 91%</li>
-        <li>F1-Score: 92%</li>
-        <li>ROC-AUC: 0.96</li>
-    </ul>
-
-</section>
-
-<section>
-    <h2>Section 4 - Certification Courses</h2>
-    <ul>
-        <li>The Sustainable Development Goals - A Global Transdisciplinary Vision of the Future (Coursera)</li>
-        <li>Introduction to Generative AI for Developers with Copilot (Coursera)</li>
-        <li>Active Listening: Enhancing Communication Skill (Coursera)</li>
-        <li>Introduction to Visual Basic Programming (Coursera)</li>
-        <li>Introduction to Prompt Engineering (Simplilearn)</li>
+        <li>Arduino UNO / NodeMCU / ESP32</li>
+        <li>Ultrasonic Sensor</li>
+        <li>IR Sensor</li>
+        <li>Buzzer & Vibration Motor</li>
+        <li>GPS & GSM Modules</li>
+        <li>Rechargeable Battery</li>
+        <li>Breadboard, Jumper Wires, PCB</li>
     </ul>
 </section>
 
 <section>
-    <h2>Section 5 - Internship</h2>
+    <h2>Section 4 – Certification Courses</h2>
     <ul>
-        <li>Eduskill - Java Full Stack Developer Virtual Internship</li>
-        <li>Eduskill - Android Developer Virtual Internship</li>
+        <li>The Sustainable Development Goals – Coursera</li>
+        <li>Introduction to Generative AI for Developers with Copilot – Coursera</li>
+        <li>Active Listening: Enhancing Communication Skill – Coursera</li>
+        <li>Introduction to Visual Basic Programming – Coursera</li>
+        <li>Introduction to Prompt Engineering – Simplilearn</li>
     </ul>
 </section>
 
 <section>
-    <h2>Section 6 - Achievements</h2>
+    <h2>Section 5 – Internship</h2>
+    <ul>
+        <li>Eduskill – Java Full Stack Developer Virtual Internship</li>
+        <li>Eduskill – Android Developer Virtual Internship</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Section 6 – Achievements</h2>
     <p><b>Awards:</b> Participated in Hackathon</p>
-    <p><b>Competitions:</b> CODECRAFT 25 HACKATHON, Noobfest Startup Hackathon</p>
+    <p><b>Competitions:</b> CODECRAFT 25 Hackathon, Noobfest Startup Hackathon</p>
 </section>
 
 <footer>
-    © 2026 Student Portfolio | All Rights Reserved
+    © 2026 Mydeen Abdul Khadar M | Portfolio Website
 </footer>
 
 </body>
